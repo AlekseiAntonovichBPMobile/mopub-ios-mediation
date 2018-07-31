@@ -15,7 +15,7 @@ DESC
 s.homepage         = 'https://github.com/mopub/mopub-ios-mediation'
 s.license          = { :type => 'New BSD', :file => 'LICENSE' }
 s.author           = { 'MoPub' => 'support@mopub.com' }
-s.source           = { :git => 'ssh://git@github.com:AlekseiAntonovichBPMobile/mopub-ios-mediation.git', :branch => 'custom_fork' }
+s.source           = { :git => 'https://github.com:AlekseiAntonovichBPMobile/mopub-ios-mediation.git', :commit => 'master' }
 s.ios.deployment_target = '9.0'
 s.static_framework = true
 s.source_files = 'AdMob/*.{h,m}'
