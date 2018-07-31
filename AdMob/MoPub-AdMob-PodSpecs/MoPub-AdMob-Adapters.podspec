@@ -19,6 +19,6 @@ s.source           = { :git => 'ssh://git@github.com:AlekseiAntonovichBPMobile/m
 s.ios.deployment_target = '9.0'
 s.static_framework = true
 s.source_files = 'AdMob/*.{h,m}'
-# s.dependency 'mopub-ios-sdk', '~> 5.0'
-# s.dependency 'Google-Mobile-Ads-SDK', '7.31.0'
+s.dependency 'mopub-ios-sdk', '~> 5.0'
+s.dependency 'Google-Mobile-Ads-SDK', '7.31.0'
 end
